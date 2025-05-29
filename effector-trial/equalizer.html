@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit-icons.min.js"></script>
+
+    <style>
+        .body {
+            padding: 50px;
+        }
+
+        .audio-container {
+            width: 400px;
+            margin: 10px;
+        }
+    </style>
+    <title>イコライザー試聴</title>
+</head>
+
+<body>
+    <div class="body">
+        <div class="uk-card uk-card-default uk-card-body audio-container">
+            <div class="title">テストで使用した正弦波の音（⚠️音量注意⚠️）</div>
+            <div class="audio">
+                <audio controls src="assets/equalizer/sins.wav"></audio>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
