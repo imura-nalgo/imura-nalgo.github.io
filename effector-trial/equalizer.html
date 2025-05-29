@@ -26,8 +26,29 @@
 
 <body>
     <div class="body">
+        <h1>イコライザー</h1>
         <div class="uk-card uk-card-default uk-card-body audio-container">
-            <div class="title">テストで使用した正弦波の音（⚠️音量注意⚠️）</div>
+            <div class="title">かける前</div>
+            <div class="audio">
+                <audio controls src="assets/equalizer/JINGLE88.wav"></audio>
+            </div>
+            <p>音源は<a href="https://bgmusic.jp/freejingle/jingle88/">こちら</a>からお借りしました</p>
+        </div>
+        <div class="uk-card uk-card-default uk-card-body audio-container">
+            <div class="title">かけた後（200Hzカット）</div>
+            <div class="audio">
+                <audio controls src="assets/equalizer/low_cut.wav"></audio>
+            </div>
+        </div>
+        <div class="uk-card uk-card-default uk-card-body audio-container">
+            <div class="title">かけた後（6400Hzカット）</div>
+            <div class="audio">
+                <audio controls src="assets/equalizer/hi_cut.wav"></audio>
+            </div>
+        </div>
+
+        <h3 id="sin">テストで使用した正弦波の音（⚠️音量注意⚠️）</h3>
+        <div class="uk-card uk-card-default uk-card-body audio-container">
             <div class="audio">
                 <audio controls src="assets/equalizer/sins.wav"></audio>
             </div>
